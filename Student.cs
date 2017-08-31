@@ -10,7 +10,21 @@ namespace JSONParser
 
     public override string ToString()
     {
-      return string.Format("[Student: FirstName={0}, LastName={1}, Birthday={2}, Grades={3}]", FirstName, LastName, Birthday, string.Join(",", Grades));
+      return string.Format("[Student: FirstName={0}, LastName={1}, Birthday={2}, Grades={3}]",
+                           FirstName,
+                           LastName,
+                           Birthday,
+                           string.Join(",", Grades));
+    }
+
+    public override bool Equals(object obj)
+    {
+      if (!(obj is Student)) {
+        return false;
+      } else {
+        Student student = (Student)obj;
+        return this.ToString().Equals(student.ToString());
+      }
     }
   }
 }
