@@ -40,7 +40,7 @@ namespace JSONParser
 
     static void TestJSONHandler()
     {
-
+      
       Console.WriteLine("JSON serialziation:");
       Console.WriteLine(jsonHandler.Encode(student));
 
