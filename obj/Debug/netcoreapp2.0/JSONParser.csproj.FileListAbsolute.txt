@@ -1,0 +1,10 @@
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/bin/Debug/netcoreapp2.0/JSONParser.deps.json
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/bin/Debug/netcoreapp2.0/JSONParser.runtimeconfig.json
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/bin/Debug/netcoreapp2.0/JSONParser.runtimeconfig.dev.json
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/bin/Debug/netcoreapp2.0/JSONParser.dll
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/bin/Debug/netcoreapp2.0/JSONParser.pdb
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/obj/Debug/netcoreapp2.0/JSONParser.csproj.CoreCompileInputs.cache
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/obj/Debug/netcoreapp2.0/JSONParser.AssemblyInfoInputs.cache
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/obj/Debug/netcoreapp2.0/JSONParser.AssemblyInfo.cs
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/obj/Debug/netcoreapp2.0/JSONParser.dll
+/Users/user/Works/Aromajoin/Windows/learn/json-parser/obj/Debug/netcoreapp2.0/JSONParser.pdb
