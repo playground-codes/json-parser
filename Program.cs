@@ -23,8 +23,11 @@ namespace JSONParser
       SetupTestData();
 
       // Tests
-      //TestJSONHandler();
-      //TestSaveFile();
+      Console.WriteLine("**********************");
+      TestJSONHandler();
+      Console.WriteLine("**********************");
+      TestSaveFile();
+      Console.WriteLine("**********************");
       TestLoadFile();
     }
 
@@ -40,7 +43,6 @@ namespace JSONParser
 
     static void TestJSONHandler()
     {
-      
       Console.WriteLine("JSON serialziation:");
       Console.WriteLine(jsonHandler.Encode(student));
 
@@ -48,13 +50,15 @@ namespace JSONParser
       Console.WriteLine(jsonHandler.Decode(TEST_JSON));
     }
 
-    static void TestSaveFile() {
+    static void TestSaveFile()
+    {
       Console.WriteLine($"Start writing data to file at{FILE_PATH} .... ");
       fileHandler.SaveDataToFile(student, FILE_PATH);
       Console.WriteLine($"Complete writing data to file at{FILE_PATH}.");
     }
 
-    static void TestLoadFile() {
+    static void TestLoadFile()
+    {
       Console.WriteLine($"Start loading data from file at{FILE_PATH} .... ");
       Student savedStudent = fileHandler.LoadDataFromFile(FILE_PATH);
       Console.WriteLine($"Complete writing data to file at{FILE_PATH}.");
