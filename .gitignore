@@ -18,3 +18,7 @@ _ReSharper.*
 *.nuget.targets
 *.orig
 .DS_Store
+
+# Project test file
+test.json
+tests/user_saving.json
