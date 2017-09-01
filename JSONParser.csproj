@@ -15,5 +15,6 @@
   </ItemGroup>
     <ItemGroup>
       <Folder Include="tests\" />
+      <Folder Include="mock\" />
     </ItemGroup>
 </Project>
