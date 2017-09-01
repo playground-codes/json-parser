@@ -9,4 +9,11 @@
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
   </ItemGroup>
+    <ItemGroup>
+    <PackageReference Include="xunit" Version="2.3.0-beta4-build3742" />
+    <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.0-beta4-build3742" />
+  </ItemGroup>
+    <ItemGroup>
+      <Folder Include="tests\" />
+    </ItemGroup>
 </Project>
